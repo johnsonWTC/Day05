@@ -8,8 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class DialogComponent implements OnInit {
 
   constructor() { }
-
+  button :any;
   ngOnInit(): void {
   }
+
+  showDialogBox(){
+    alert("hey");
+  }
+
+
+
 
 }

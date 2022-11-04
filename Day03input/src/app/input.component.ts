@@ -5,10 +5,13 @@ import { Component } from "@angular/core";
     template : '<input type="text" value="hey" [(ngModel)] = "value" (keydown)="ChangeValue()">'
 })
 export class InputComponent{
-    value:string ="shooooo"
+    value:string ="shooooo";
+    
 
     ChangeValue(){
         this.value = "no no";
     }
+
+
 
 }
