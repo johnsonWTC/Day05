@@ -7,7 +7,6 @@ import { Component } from "@angular/core";
 export class InputComponent{
     value:string ="default value";
     
-
     ChangeValue(){
         this.value = "Value changed";
     }
